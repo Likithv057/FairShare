@@ -11,10 +11,8 @@ export default function Index() {
     if (!loading) {
       try {
         if (user) {
-          console.log("Redirecting to /main/home");
           router.replace('/main/home');
         } else {
-          console.log("Redirecting to /auth/welcome");
           router.replace('/auth/welcome');
         }
       } catch (err) {

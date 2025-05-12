@@ -243,7 +243,7 @@ const Expenses: React.FC = () => {
                 <View style={styles.nav}>
                   <Icon name="pie"
                    onPress={() => router.push({ pathname: '/main/expensesanalysis', params: { groupId } })}/>
-                  <Text style={styles.navText}>Expenses Analysis</Text>
+                  <Text style={styles.navText}>Analysis</Text>
                 </View>
               </>
             }
@@ -306,6 +306,8 @@ const getStyles = (theme: Theme) =>
       marginTop: hp(0.5),
       fontSize: hp(1.6),
       color: theme.colors.text,
+      textAlign:'center',
+      width:wp(20),
     },
   });
 

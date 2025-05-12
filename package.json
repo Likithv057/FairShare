@@ -65,7 +65,8 @@
     "react-redux": "^9.2.0",
     "tailwind-rn": "^4.2.0",
     "victory-native": "^41.17.1",
-    "victory-pie": "^37.3.6"
+    "victory-pie": "^37.3.6",
+    "expo-updates": "~0.27.4"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",

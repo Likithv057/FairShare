@@ -247,6 +247,8 @@ const getStyles = (theme: Theme) => StyleSheet.create({
     marginTop: hp(0.5),
     fontSize: hp(1.6),
     color: theme.colors.textLight,
+    textAlign:'center',
+    width:wp(20),
   },
   emptyContainer: {
     flex: 1,

@@ -169,13 +169,16 @@ const getStyles = (theme: Theme) =>
     },
     navItem: {
       flex: 1,
+      flexDirection:'column',
       alignItems: "center",
       justifyContent: "center",
     },
     navText: {
       marginTop: hp(0.5),
       fontSize: hp(1.6),
+      textAlign:'center',
       color: theme.colors.textLight,
+      width:wp(20),
     },
   });
 

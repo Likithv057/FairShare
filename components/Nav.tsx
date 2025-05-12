@@ -26,7 +26,7 @@ const getStyle = (theme: Theme) =>
     container: {
       flexDirection: 'row',
       alignItems: 'center',
-      justifyContent: 'space-around',
+      justifyContent: 'space-around', // Keep this for overall Nav items if you add more later
       paddingHorizontal: theme.spacing.sm,
       paddingVertical: theme.spacing.sm,
       borderRadius: theme.radius.md,
@@ -36,7 +36,7 @@ const getStyle = (theme: Theme) =>
     },
     actionWrapper: {
       flexDirection: 'row',
-      justifyContent: 'space-around',
+      justifyContent: 'space-evenly', // Try 'space-between' first
       alignItems: 'center',
       flex: 1,
     },
