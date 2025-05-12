@@ -18,7 +18,7 @@ const Welcome: React.FC = () => {
       <View style={styles.container}>
         <Image
           resizeMode="contain"
-          source={require("../../assets/images/icon.png")}
+          source={require("../../assets/images/logo.png")}
           style={styles.welcomeImage}
         />
         <View style={styles.textContainer}>
