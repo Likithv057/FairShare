@@ -34,27 +34,6 @@
             "BROWSABLE",
             "DEFAULT"
           ]
-        },
-        {
-          "action": "VIEW",
-          "data": [
-            {
-              "scheme": "http",
-              "host": "fairshare.com"
-            },
-            {
-              "scheme": "fairshare",
-              "host": "resetpassword"
-            },
-            {
-              "scheme": "fairshare",
-              "host": "login"
-            }
-          ],
-          "category": [
-            "BROWSABLE",
-            "DEFAULT"
-          ]
         }
       ],
       "package": "com.fairshare.app"
@@ -62,7 +41,6 @@
     "ios": {
       "bundleIdentifier": "com.fairshare.app",
       "associatedDomains": [
-        "applinks:fairshare.com",
         "applinks:fairshare.com"
       ],
       "supportsTablet": true
