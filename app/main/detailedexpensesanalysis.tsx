@@ -194,6 +194,7 @@ const getStyles = (theme: Theme) =>
     },
     noDataText: {
       marginVertical: 20,
+      textAlign:'center',
     },
   });
 

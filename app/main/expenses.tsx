@@ -188,7 +188,7 @@ const Expenses: React.FC = () => {
         )}
 
         {isFinalized && (
-          <Text style={{ color: theme.colors.error, marginTop: theme.spacing.sm }}>
+          <Text style={{ color: theme.colors.error, marginTop: theme.spacing.sm , width:wp(100), textAlign:'center' }}>
             Expenses are finalized. No new expenses can be added or modified.
           </Text>
         )}

@@ -239,6 +239,8 @@ const getStyles = (theme: Theme) =>
     },
     emptyText: {
       fontSize: 18,
+      width:wp(100),
+      textAlign:'center',
       color: theme.colors.textLight,
     },
     card: {
