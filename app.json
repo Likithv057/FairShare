@@ -1,0 +1,76 @@
+{
+  "expo": {
+    "name": "FairShare",
+    "slug": "FairShare",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "fairshare",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "intentFilters": [
+        {
+          "action": "VIEW",
+          "data": [
+            {
+              "scheme": "http",
+              "host": "fairshare.com"
+            },
+            {
+              "scheme": "fairshare",
+              "host": "resetpassword"
+            },
+            {
+              "scheme": "fairshare",
+              "host": "login"
+            }
+          ],
+          "category": [
+            "BROWSABLE",
+            "DEFAULT"
+          ]
+        }
+      ],
+      "package": "com.fairshare.app"
+    },
+    "ios": {
+      "bundleIdentifier": "com.fairshare.app",
+      "associatedDomains": [
+        "applinks:fairshare.com"
+      ],
+      "supportsTablet": true
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/splash-icon.png",
+          "resizeMode": "contain",
+          "backgroundColor": "#FFFFFF"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": false
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "199329bc-ab59-4978-ad72-4962b47484d2"
+      }
+    }
+  }
+}
